@@ -1,4 +1,4 @@
-package org.zeith.modid.init;
+package net.sntyhzrd.degenadditions.init;
 
 import org.zeith.hammerlib.annotations.SimplyRegister;
 
