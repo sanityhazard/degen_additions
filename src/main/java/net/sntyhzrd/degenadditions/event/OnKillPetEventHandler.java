@@ -33,7 +33,7 @@ public class OnKillPetEventHandler {
                 } else {
                     petName = pet.getOwner().getDisplayName().getString() + "'s " + pet.getType().getDescription().getString();
                 }
-                killer.level().explode(null, killer.getX() + 0.5D, killer.getY() + 0.5D, killer.getZ() + 0.5D, 2.0F, Level.ExplosionInteraction.NON);
+                killer.level().explode(null, killer.getX() + 0.5D, killer.getY() + 0.5D, killer.getZ() + 0.5D, 2.0F, Level.ExplosionInteraction.NONE);
                 killer.hurt(new KillPetDamageSource(Holder.direct(DamageTypesMI.KILLED_PET), (Player) killer, petName), ((Player) killer).getMaxHealth());
 //                ((Player) killer).die();
 //                killer.hurt(new DamageSource(Holder.direct(new DamageType(/"killed_pet", 1f))), ((Player) killer).getMaxHealth());
