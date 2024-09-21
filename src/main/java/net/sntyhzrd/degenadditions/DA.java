@@ -1,6 +1,8 @@
 package net.sntyhzrd.degenadditions;
 
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.EnchantedBookItem;
+import net.minecraft.world.item.SuspiciousStewItem;
 import net.minecraftforge.fml.common.Mod;
 import org.zeith.hammerlib.api.items.CreativeTab;
 import org.zeith.hammerlib.core.adapter.LanguageAdapter;
